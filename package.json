@@ -1,0 +1,23 @@
+{
+  "name": "aliasify",
+  "version": "1.0.0",
+  "description": "A simple method for aliasing values in objects",
+  "main": "aliasify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jajaperson/aliasify.git"
+  },
+  "keywords": [
+    "alias",
+    "objects"
+  ],
+  "author": "James Jensen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jajaperson/aliasify/issues"
+  },
+  "homepage": "https://github.com/jajaperson/aliasify#readme"
+}
