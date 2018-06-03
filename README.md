@@ -11,7 +11,7 @@ $ npm install alias-keys
 Then, require the module within your project,
 
 ```javascript
-const aliased = require('alias-keys');
+const { alias } = require('alias-keys');
 ```
 
 and create an object with alias keys in an `aliases` array property of the corresponding value.
@@ -28,9 +28,9 @@ let object = {
   }
 }
 
-console.log(aliased(object)('javascript'))
+console.log(alias(object)('javascript'))
 // -> { fileExtension: '.js', aliases: ['js'] }
 
-console.log(aliased(object)('js'))
+console.log(alias(object)('js'))
 // -> { fileExtension: '.js', aliases: ['js'] }
 ```

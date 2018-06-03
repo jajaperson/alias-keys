@@ -13,4 +13,4 @@ const alias = (object) => {
   }
 };
 
-exports.default = alias;
+module.exports = alias;
