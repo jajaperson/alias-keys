@@ -14,4 +14,3 @@ const alias = (object) => {
 };
 
 exports.default = alias;
-export default alias;
