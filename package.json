@@ -1,8 +1,8 @@
 {
-  "name": "aliasify",
+  "name": "alias-keys",
   "version": "1.0.0",
   "description": "A simple method for aliasing values in objects",
-  "main": "aliasify.js",
+  "main": "alias.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
