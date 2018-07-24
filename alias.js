@@ -1,4 +1,4 @@
-module.exports = (object) => {
+let alias = (object) => {
   let map = {};
 
   for (item in object) {
@@ -12,3 +12,6 @@ module.exports = (object) => {
     return object[map[item]];
   }
 };
+
+
+module.exports = alias;
