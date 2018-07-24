@@ -1,4 +1,6 @@
 # alias-keys
+[![npm package](https://nodei.co/npm/alias-keys.png?downloads=true&stars=true)](https://nodei.co/npm/alias-keys/)
+
 A simple method for aliasing values in objects
 
 ## Usage
