@@ -1,4 +1,8 @@
-let alias = (object) => {
+/**
+ * Alias keys
+ * @param {object} object - The object to resolve aliases of.
+ */
+function alias(object) {
   let map = {};
 
   for (item in object) {
